@@ -1,0 +1,5 @@
+An adversarial example is a specially generated input with the purpose of confusing a model and resultig in misclassification. They exist because the features used by the models are not robust. That means that the features don't take into account the adversarial examples. 
+
+That gives us **standard accuracy** and **robust accuracy**. Standard accuracy is the accuracy on a dataset without  adversaries examples and robust accuracy is the accuracy on a dataset with adversarial examples. You test the accuracy by checking the behavior of the model from what you would expect from a robust dataset. So you feed examples with a one pixel attack for instance and see the accuracy. 
+
+Some features can be more robust than others (make a better decision boundary than others). You could do a test and look at what different features say than you can just discard the features that say that its not a dog but in practice this is quite hard to do. 

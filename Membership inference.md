@@ -1,0 +1,3 @@
+With membership inference the goal is to find out if a certain image was part of the training data. You do this by taking advantage of the fact that ml models generally perform better on their training data than unseen data. Or at least they are more certain about the result. Membership inferences attacks exploit this to discover or reconstruct the examples used to train the ml model. Basically keep changing the input to increase the certainty.
+
+Membership inference attacks show if a particular data record  is part of the training dataset, raising privacy concerns.
